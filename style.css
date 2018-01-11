@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    display: block;
+    margin: 25px;
+    color: #444;
+    font-family: 'Open Sans';
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #f9f9f9;
+    padding: 10px;
+    z-index: 999;
+    box-shadow: 0 1px 5px 1px rgba(0,0,0,0.1);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li, #logo {
+    display: inline-block;
+    padding: 10px;
+    color: #ccc;
+}
+
+header {
+    position: relative;
+    margin-top: 50px;
+    background: linear-gradient(to right, rgba(155, 36, 151, 0.5), rgba(52, 152, 219, 0.5)),
+                url('./img/test.jpg');
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 0 70%;
+}
+
+header h1 {
+    font-family: 'Quicksand';
+    font-size: 42px;
+    font-weight: 100;
+}
+
+header p {
+    font-size: 22px;
+    padding: 10px 0;
+    font-family: 'Open Sans';
+}
+
+.headerTxt {
+    position: absolute;
+    color: #fff;
+    width: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 25px;
+}
+
+main {
+    padding: 0 50px;
+    position: relative;
+}
+
+main section {
+    overflow: auto;
+    margin: 25px 0;
+}
+
+main .box {
+    float: left;
+    width: 23%;
+    margin: 10px 1%;
+    padding: 15px;
+    background: #fff;
+    border-bottom: 3px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 2px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+main .box h4 {
+    margin: 10px 0;
+}
+
+main .box button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background: #2980b9;
+}
+
+main .box button:hover {
+    cursor: pointer;
+}
+
+main .box a {
+    text-decoration: none;
+}
+
+main .box .tag {
+    display: inline-block;
+    background: #eee;
+    color: #777;
+    margin: 5px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+#result {
+    overflow: auto;
+}
