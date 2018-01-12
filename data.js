@@ -1,37 +1,63 @@
-const data = [
+/*
+    categories: courses, ide
+
+*/
+
+let data = [
     {
         name: 'Free Code Camp',
         url: 'https://www.freecodecamp.org/',
-        img: '',
+        img: './img/screenshots/fcc.png',
         category: 'courses',
         tags: ['html','css','js','node', 'express']
     },
     {
         name: 'The Odin Project',
         url: 'https://www.theodinproject.com/',
-        img: '',
+        img: './img/screenshots/odin.png',
         category: 'courses',
         tags: ['html', 'css', 'js', 'ruby']
     },
     {
         name: 'CodePen',
         url: 'https://www.codepen.io/',
-        img: '',
+        img: './img/screenshots/codepen.png',
         category: 'ide',
         tags: ['ide']
     },
     {
         name: 'Codecademy',
         url: 'https://www.codecademy.com/',
-        img: '',
+        img: './img/screenshots/codecademy.png',
         category: 'courses',
         tags: ['html', 'css', 'js', 'ruby', 'express']
     },
     {
         name: 'repl.it',
         url: 'https://repl.it/',
-        img: '',
+        img: './img/screenshots/repl.png',
         category: 'ide',
         tags: ['ide']
+    },
+    {
+        name: 'Practical JavaScript',
+        url: 'https://watchandcode.com/p/practical-javascript',
+        img: './img/screenshots/pracjs.png',
+        category: 'courses',
+        tags: ['js']
+    },
+    {
+        name: 'CSS3 in 30 Days',
+        url: 'https://codecollege.ca/p/css3-coding-challenge',
+        img: './img/screenshots/css30.png',
+        category: 'courses',
+        tags: ['css']
+    },
+    {
+        name: 'JavaScript 30',
+        url: 'https://javascript30.com/',
+        img: './img/screenshots/js30.png',
+        category: 'courses',
+        tags: ['js']
     }
 ];
