@@ -16,8 +16,16 @@ h3 {
     font-family: 'Open Sans';
 }
 
+.tag:hover {
+    cursor: pointer;
+}
+
+/*==========
+    NAV 
+==========*/
+
 nav {
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     background: #f9f9f9;
@@ -37,28 +45,32 @@ nav ul {
 nav ul li, #logo {
     display: inline-block;
     padding: 10px;
-    color: #ccc;
+    color: #999;
 }
+
+/*==========
+    HEADER 
+==========*/
 
 header {
     position: relative;
     margin-top: 50px;
-    background: linear-gradient(to right, rgba(155, 36, 151, 0.5), rgba(52, 152, 219, 0.5)),
-                url('./img/test.jpg');
+    background: linear-gradient(to right, rgba(155, 36, 151, 0.9), rgba(52, 152, 219, 0.5)),
+                url('./img/woman.jpg');
     height: 60vh;
     width: 100%;
     background-size: cover;
-    background-position: 0 70%;
+    background-position: center;
 }
 
 header h1 {
     font-family: 'Quicksand';
-    font-size: 42px;
+    font-size: 50px;
     font-weight: 100;
 }
 
 header p {
-    font-size: 22px;
+    font-size: 20px;
     padding: 10px 0;
     font-family: 'Open Sans';
 }
@@ -69,8 +81,30 @@ header p {
     width: 40%;
     top: 50%;
     transform: translateY(-50%);
-    margin: 0 25px;
+    left: 20px;
 }
+
+.categories {
+    background: #eee;
+    text-align: center;
+    color: #555;
+}
+
+.categories span {
+    display: inline-block;
+    height: 100%;
+    margin: 0 10px;
+    padding: 15px 15px;
+}
+
+.categories span:hover {
+    background: #999;
+    color: #fcfcfc;
+}
+
+/*==========
+    MAIN 
+==========*/
 
 main {
     padding: 0 50px;
@@ -94,8 +128,14 @@ main .box {
     text-align: center;
 }
 
+main .box img {
+    display: block;
+    width: 100%
+}
+
 main .box h4 {
     margin: 10px 0;
+    color: #555;
 }
 
 main .box button {
@@ -125,6 +165,10 @@ main .box .tag {
     border-radius: 3px;
     font-size: 12px;
 }
+
+/*==========
+    RESULTS 
+==========*/
 
 #result {
     overflow: auto;
