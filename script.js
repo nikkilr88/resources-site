@@ -68,6 +68,6 @@ function displayMatch(e) {
         }
     });
 
-    let title = `${count} resource(s) that match '${tag}'`;
+    let title = `${count} match(es) for '${tag}'`;
     $('#result .title').text(title);
 }
