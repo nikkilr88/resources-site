@@ -1,14 +1,18 @@
 $(function() {
+    //Sort data alphabetically
+    data = data.sort((a, b) => a.name.localeCompare(b.name));
+
+    //Get all sections and create div
     const sections = $('.courses, .ide');
     const sectionsArray = Array.from(sections);
 
-    // LOAD DATA
+    // LOAD DATA INTO SECTIONS
     sectionsArray.forEach(section => {
         let category = section.dataset.category;
         loadCourses(data, category)
     });
 
-    $('main').on('click', '.tag', displayMatch);
+    $('body').on('click', '.tag', displayMatch);
 });
 
 /* =================
@@ -35,9 +39,10 @@ function createTag(item) {
 
 function createDiv(item) {
     let tags = createTag(item);
-
+    let imgSrc = item.img || './img/screenshots/default.png';
     let div = `
         <div class="box">
+            <img src="${imgSrc}">
             <h4>${item.name}</h4>
             <a href="${item.url}" target="_blank"><button>Visit Site</button></a>
             ${tags}
@@ -49,19 +54,20 @@ function createDiv(item) {
 
 function displayMatch(e) {
     let $this = $(e.currentTarget);
-
-    let tag = $this.text();
-    let title = `Resources that match '${tag}'`;
-
-    console.log(tag)
+    let tag = $this.text() === 'JavaScript' ? 'js' : $this.text().toLowerCase();
+    let count = 0;
 
     $('#result .results').empty();
-    $('#result .title').text(title)
+    
 
     data.forEach(item => {
         if (item.tags.includes(tag)) {
             let div = createDiv(item);
             $('#result .results').append(div)
+            count++;
         }
     });
+
+    let title = `${count} resource(s) that match '${tag}'`;
+    $('#result .title').text(title);
 }
