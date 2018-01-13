@@ -55,9 +55,9 @@ nav ul li, #logo {
 header {
     position: relative;
     margin-top: 50px;
-    background: linear-gradient(to right, rgba(155, 36, 151, 0.9), rgba(52, 152, 219, 0.5)),
+    background: linear-gradient(to right, rgba(41, 128, 185, 0.5), rgba(142, 68, 173, 0.5)),
                 url('./img/woman.jpg');
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -73,7 +73,33 @@ header p {
     font-size: 20px;
     padding: 10px 0;
     font-family: 'Open Sans';
+    line-height: 1.5;
 }
+
+header button {
+    margin: 5px 10px 0 0;
+    border: none;
+    background: #9b59b6;
+    border: 2px solid #9b59b6;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fcfcfc;
+    transition: all 0.3s;
+}
+
+header button.outline {
+    background: none;
+}
+
+header button:hover {
+    background: #8e44ad;
+    border-color: #8e44ad;
+    cursor: pointer;
+}
+
+/* header span:not(.headerTxt) {
+    background: #8e44ad;
+} */
 
 .headerTxt {
     position: absolute;
