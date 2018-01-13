@@ -59,5 +59,12 @@ let data = [
         img: './img/screenshots/js30.png',
         category: 'courses',
         tags: ['js']
+    },
+    {
+        name: 'Glitch',
+        url: 'https://glitch.com/',
+        img: './img/screenshots/glitch.png',
+        category: 'ide',
+        tags: ['ide']
     }
 ];
