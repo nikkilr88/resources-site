@@ -44,6 +44,7 @@ function createDiv(item) {
         <div class="box">
             <img src="${imgSrc}">
             <h4>${item.name}</h4>
+            <p>${item.desc.substring(0, 90)}...</p>
             <a href="${item.url}" target="_blank"><button>Visit Site</button></a>
             ${tags}
         </div>
