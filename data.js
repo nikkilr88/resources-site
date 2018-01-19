@@ -9,6 +9,7 @@ let data = [
         url: 'https://www.freecodecamp.org/',
         img: './img/screenshots/fcc.png',
         category: 'courses',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         tags: ['html','css','js','node', 'express']
     },
     {
@@ -16,6 +17,7 @@ let data = [
         url: 'https://www.theodinproject.com/',
         img: './img/screenshots/odin.png',
         category: 'courses',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         tags: ['html', 'css', 'js', 'ruby']
     },
     {
@@ -23,6 +25,7 @@ let data = [
         url: 'https://www.codepen.io/',
         img: './img/screenshots/codepen.png',
         category: 'ide',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         tags: ['ide']
     },
     {
@@ -30,6 +33,7 @@ let data = [
         url: 'https://www.codecademy.com/',
         img: './img/screenshots/codecademy.png',
         category: 'courses',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         tags: ['html', 'css', 'js', 'ruby', 'express']
     },
     {
@@ -37,6 +41,7 @@ let data = [
         url: 'https://repl.it/',
         img: './img/screenshots/repl.png',
         category: 'ide',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         tags: ['ide']
     },
     {
@@ -44,6 +49,7 @@ let data = [
         url: 'https://watchandcode.com/p/practical-javascript',
         img: './img/screenshots/pracjs.png',
         category: 'courses',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         tags: ['js']
     },
     {
@@ -51,6 +57,7 @@ let data = [
         url: 'https://codecollege.ca/p/css3-coding-challenge',
         img: './img/screenshots/css30.png',
         category: 'courses',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         tags: ['css']
     },
     {
@@ -58,6 +65,7 @@ let data = [
         url: 'https://javascript30.com/',
         img: './img/screenshots/js30.png',
         category: 'courses',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         tags: ['js']
     },
     {
@@ -65,6 +73,7 @@ let data = [
         url: 'https://glitch.com/',
         img: './img/screenshots/glitch.png',
         category: 'ide',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         tags: ['ide']
     }
 ];
