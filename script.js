@@ -13,6 +13,22 @@ $(function() {
     });
 
     $('body').on('click', '.tag', displayMatch);
+
+    $(window).scroll(() => {
+        let scrollPos = $(this).scrollTop();
+
+        if(scrollPos > 50) {
+            $('nav').css({
+                'background': 'white',
+                'boxShadow': '0 1px 5px 1px rgba(0,0,0,0.1)'
+            })
+        } else {
+            $('nav').css({
+                'background': 'none',
+                'boxShadow': 'none'
+            })
+        }
+    });
 });
 
 /* =================
