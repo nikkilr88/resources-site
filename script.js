@@ -74,6 +74,7 @@ function displayMatch(e) {
     let tag = $this.text() === 'JavaScript' ? 'js' : $this.text().toLowerCase();
     let count = 0;
 
+    $('#result').show();
     $('#result .results').empty();
     
 
