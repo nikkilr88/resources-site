@@ -207,4 +207,5 @@ main .box .tag {
 
 #result {
     overflow: auto;
+    display: none;
 }
