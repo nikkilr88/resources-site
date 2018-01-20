@@ -75,5 +75,13 @@ let data = [
         category: 'ide',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         tags: ['ide']
+    },
+    {
+        name: 'Griddy Up',
+        url: 'https://cssgrid.io/',
+        img: './img/screenshots/cssgrid.png',
+        category: 'courses',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+        tags: ['css']
     }
 ];
